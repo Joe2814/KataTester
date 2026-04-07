@@ -1,0 +1,1295 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "gestion-de-contactos;crear-contacto-nuevo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Crear contacto nuevo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4597476000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3889316700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "crea un contacto nuevo",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 935257399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "el contacto debe aparecer en la lista",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1011485399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2260191999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestion-de-contactos;actualizar-contacto-existente",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Actualizar contacto existente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1807810199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que el usuario esta autenticado y tiene un contacto creado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3531099700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "actualiza el contacto actual",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7575875100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "el contacto debe mostrar los nuevos datos",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6119705199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2359604699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestion-de-contactos;eliminar-contacto-existente",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Eliminar contacto existente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2734113400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que el usuario esta autenticado y tiene un contacto creado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5551208299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "elimina el contacto actual",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2057467100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "el contacto no debe aparecer en la lista",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6093212299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4353482899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "gestion-de-contactos;cerrar-sesion",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Cerrar sesion",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2024875299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3692820800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "cierra sesion",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 309505599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "debe volver a la pagina de login",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 850587899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1302696299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "gestion-de-contactos",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gestion de contactos",
+    "tags": [],
+    "uri": "features\\contact_management.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;nombre-numerico",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Nombre numerico",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1558810899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2449573900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "intenta crear un contacto con nombre numerico",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 843025200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 495767300,
+              "error_message": "AssertionError [ERR_ASSERTION]: El contacto inválido no debió crearse\n\ntrue !== false\n\n    + expected - actual\n\n    -true\n    +false\n\n    at World.<anonymous> (C:\\Users\\milen\\Downloads\\KataTesterUI\\features\\step_definitions\\contact.steps.js:280:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1212691500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;apellido-numerico",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Apellido numerico",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1446367599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3785848800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "intenta crear un contacto con apellido numerico",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:137"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 846788100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 477928099,
+              "error_message": "AssertionError [ERR_ASSERTION]: El contacto inválido no debió crearse\n\ntrue !== false\n\n    + expected - actual\n\n    -true\n    +false\n\n    at World.<anonymous> (C:\\Users\\milen\\Downloads\\KataTesterUI\\features\\step_definitions\\contact.steps.js:280:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1298976499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;email-invalido",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Email invalido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1423948600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3254264200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "intenta crear un contacto con email invalido",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:152"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 862293899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 487073699,
+              "error_message": "AssertionError [ERR_ASSERTION]: El contacto inválido no debió crearse\n\ntrue !== false\n\n    + expected - actual\n\n    -true\n    +false\n\n    at World.<anonymous> (C:\\Users\\milen\\Downloads\\KataTesterUI\\features\\step_definitions\\contact.steps.js:280:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1292907200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;celular-invalido",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Celular invalido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1413746599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2964310700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "intenta crear un contacto con celular invalido",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 772046499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 489316100,
+              "error_message": "AssertionError [ERR_ASSERTION]: El contacto inválido no debió crearse\n\ntrue !== false\n\n    + expected - actual\n\n    -true\n    +false\n\n    at World.<anonymous> (C:\\Users\\milen\\Downloads\\KataTesterUI\\features\\step_definitions\\contact.steps.js:280:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1266725500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;direccion-numerica",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Direccion numerica",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1586590199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3361180000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "intenta crear un contacto con direccion numerica",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805105700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 478568100,
+              "error_message": "AssertionError [ERR_ASSERTION]: El contacto inválido no debió crearse\n\ntrue !== false\n\n    + expected - actual\n\n    -true\n    +false\n\n    at World.<anonymous> (C:\\Users\\milen\\Downloads\\KataTesterUI\\features\\step_definitions\\contact.steps.js:280:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1251715899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;ciudad-numerica",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Ciudad numerica",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1704653500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3852899499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "intenta crear un contacto con ciudad numerica",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 842909899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1888991099,
+              "error_message": "AssertionError [ERR_ASSERTION]: El contacto inválido no debió crearse\n\ntrue !== false\n\n    + expected - actual\n\n    -true\n    +false\n\n    at World.<anonymous> (C:\\Users\\milen\\Downloads\\KataTesterUI\\features\\step_definitions\\contact.steps.js:280:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1193980400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;estado-numerico",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Estado numerico",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1517204100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2642922800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "intenta crear un contacto con estado numerico",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:212"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 812862200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 467623599,
+              "error_message": "AssertionError [ERR_ASSERTION]: El contacto inválido no debió crearse\n\ntrue !== false\n\n    + expected - actual\n\n    -true\n    +false\n\n    at World.<anonymous> (C:\\Users\\milen\\Downloads\\KataTesterUI\\features\\step_definitions\\contact.steps.js:280:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1189736899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;codigo-postal-invalido",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Codigo postal invalido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1477201999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2681610200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "intenta crear un contacto con codigo postal invalido",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:227"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 843096299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3010639899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1781421399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;birthdate-invalido",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Birthdate invalido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1357361699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2724680899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "intenta crear un contacto con birthdate invalido",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:242"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 863946900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3017437500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2302771700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validaciones-de-contactos;pais-numerico",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Pais numerico",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1741685599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "que el usuario esta autenticado",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3649048800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "intenta crear un contacto con pais numerico",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:257"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 794017500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "el contacto no debe crearse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\contact.steps.js:273"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 485809600,
+              "error_message": "AssertionError [ERR_ASSERTION]: El contacto inválido no debió crearse\n\ntrue !== false\n\n    + expected - actual\n\n    -true\n    +false\n\n    at World.<anonymous> (C:\\Users\\milen\\Downloads\\KataTesterUI\\features\\step_definitions\\contact.steps.js:280:12)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1337250399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validaciones-de-contactos",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validaciones de contactos",
+    "tags": [],
+    "uri": "features\\contact_validations.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;abrir-pantalla-de-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Abrir pantalla de login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1513552800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que el usuario abre la pagina de login",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1057162000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "la pantalla de login carga correctamente",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71391899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1292299300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;login-exitoso",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login exitoso",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1264629400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que el usuario esta en la pagina de login",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1987041800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "el usuario inicia sesion",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 509518299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "debe ingresar al sistema",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 944599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1260764299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;login-fallido-con-password-incorrecta",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Login fallido con password incorrecta",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1477692399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "que el usuario esta en la pagina de login",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2547082200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "el usuario intenta iniciar sesion con password incorrecta",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143330699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "muestra un error visible de autenticacion",
+            "match": {
+              "location": "features\\step_definitions\\login.steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21113899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2672793399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "registro-de-usuario;registro-exitoso-con-datos-dinamicos",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Registro exitoso con datos dinamicos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2151042699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que el usuario abre la pagina de registro",
+            "match": {
+              "location": "features\\step_definitions\\register.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1973629999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "el usuario se registra con datos dinamicos",
+            "match": {
+              "location": "features\\step_definitions\\register.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 616593499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "el usuario debe quedar registrado",
+            "match": {
+              "location": "features\\step_definitions\\register.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2783800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1687024600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "registro-de-usuario;registro-fallido-con-password-corto",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Registro fallido con password corto",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1382418099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que el usuario abre la pagina de registro",
+            "match": {
+              "location": "features\\step_definitions\\register.steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1201904900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "el usuario intenta registrarse con password corto",
+            "match": {
+              "location": "features\\step_definitions\\register.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 750618300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "el registro no debe completarse y el formulario sigue visible",
+            "match": {
+              "location": "features\\step_definitions\\register.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41445299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1287638600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "registro-de-usuario",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registro de usuario",
+    "tags": [],
+    "uri": "features\\register.feature"
+  }
+]
